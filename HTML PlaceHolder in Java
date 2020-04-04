@@ -1,0 +1,23 @@
+// This is a Java solution to create a html placeholder
+// only it won't be dimmed
+// use a focus event in java
+//
+// remember to import event package 
+// javax.swing.event.*;
+//
+// also implement your JFrame method with FocusListener
+// public class Lab6 extends JFrame implements FocusListener
+//
+// add listener to your JTextArea
+// textarea.addFocusListener(this);
+
+    public void focusGained(FocusEvent e) {
+		if(specialrequirements.getText().equals("PlaceholderText")){
+			specialrequirements.setText("");
+		} 
+	}
+    public void focusLost(FocusEvent e) {
+		if(specialrequirements.getText().equals("")) {
+			  specialrequirements.setText("PlaceholderText");
+		}
+	}
