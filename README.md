@@ -1,5 +1,5 @@
-#GUI-example
-#This is a simple program with a GUI
+GUI-example
+\newline This is a simple program with a GUI
 #Techniques involved: 
 #Layout in jPanels
 #Sound in Java
